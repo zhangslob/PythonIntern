@@ -4,7 +4,7 @@ from lxml import etree
 from fake_useragent import UserAgent
 
 ua = UserAgent()
-headers = {'User-Agent': 'ua.random'}
+headers = {'User-Agent': ua.random}
 job = []
 location = []
 company = []
